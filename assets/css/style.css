@@ -2943,6 +2943,10 @@ p {
       line-height: 24px;
       color: #fff;
       margin-top: 16px; }
+
+
+
+
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .pricing-style .pricing-list ul li {
           font-size: 14px;
@@ -2968,6 +2972,28 @@ p {
         -webkit-box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16);
         -moz-box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16);
         box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.16); }
+
+
+      .pricing-style .pricing-list  li a{
+       color: #fff; 
+
+    }
+
+    .pricing-style .pricing-list:hover ul li a{
+
+      color:#; /*color al pasar el mouse*/
+
+    }
+
+    .pricing-style .pricing-list ul li a:hover{
+
+      color:;
+      transition: scale(1.1);
+      background:#1472A6;
+      border: 1px solid #1472A6;
+      border-radius: 10px;
+      
+    }
 
 /*===========================
        15.ABOUT css 
